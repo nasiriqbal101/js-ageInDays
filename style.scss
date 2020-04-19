@@ -1,0 +1,12 @@
+.flex-container {
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    div{
+        padding: 10px;
+        display: flex;
+    }
+}
