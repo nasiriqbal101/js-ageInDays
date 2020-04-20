@@ -1,8 +1,22 @@
-.flex-container {
+.container {
+  border: 1px solid black;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  height: 70%;
+  background: url(./age.gif);
+  background-size: auto;
+  color: white;
+}
+
+.container h2 {
+  padding: 10px;
+}
+
+.container .flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid black;
   padding: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -10,10 +24,23 @@
       justify-content: space-around;
 }
 
-.flex-container div {
+.container .flex-container div {
   padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .flex-container #flex-result {
+  padding: 30px;
+  margin: 20px 0;
+  border: 1px solid lightgray;
+}
+
+.container .flex-container p {
+  padding: 20px;
 }
 /*# sourceMappingURL=style.css.map */
